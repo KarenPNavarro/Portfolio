@@ -1,3 +1,7 @@
+:root {
+  --branding-color: #8549f5;
+}
+
 h1 {
   font-family: "Playfair Display", serif;
   font-size: 96px;
@@ -13,7 +17,7 @@ h2 {
 h4 {
   font-family: "Poppins", sans-serif;
   font-size: 36px;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
 .homepage {
@@ -22,6 +26,12 @@ h4 {
 
 .btn-primary {
   margin-top: 30px;
-  background: #8549f5;
-  border-color: #8549f5;
+  margin-bottom: 100px;
+  background: var(--branding-color);
+  border-color: var(--branding-color);
+}
+
+.btn-primary:hover {
+  background: var(--branding-color);
+  border-color: var(--branding-color);
 }
