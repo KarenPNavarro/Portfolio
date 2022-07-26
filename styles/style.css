@@ -99,5 +99,30 @@ h4 {
   text-align: center;
   margin-bottom: 30px;
   color: var(--branding-color);
-  justify-content: space-evenly;
+}
+
+.about-text {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: 30px;
+  padding: 160px 20px;
+}
+
+.btn-about {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: var(--branding-color);
+  border-color: var(--branding-color);
+  color: white;
+}
+
+.btn-about:hover {
+  background: var(--branding-color);
+  border-color: var(--branding-color);
+  color: white;
+}
+
+.name {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 40px;
 }
