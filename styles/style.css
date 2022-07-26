@@ -26,7 +26,7 @@ h4 {
 
 .btn-primary {
   margin-top: 30px;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
   background: var(--branding-color);
   border-color: var(--branding-color);
 }
@@ -34,4 +34,70 @@ h4 {
 .btn-primary:hover {
   background: var(--branding-color);
   border-color: var(--branding-color);
+}
+
+.feature {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: 75px;
+  margin-bottom: 80px;
+}
+
+.btn-weather {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+}
+
+.btn-weather:hover {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+}
+
+.weather-grid {
+  padding: 120px 60px;
+}
+
+.weather-text {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 45px;
+}
+
+.btn-bakery {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+}
+
+.btn-bakery:hover {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+}
+
+.bakery-grid {
+  padding: 120px 60px;
+}
+
+.bakery-text {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 45px;
+}
+
+.social {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+
+.social-links {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: var(--branding-color);
+  justify-content: space-evenly;
 }
