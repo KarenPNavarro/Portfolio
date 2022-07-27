@@ -152,3 +152,7 @@ h4 {
 .contact-button {
   text-align: center;
 }
+
+.navbar-nav {
+  margin-left: auto;
+}
