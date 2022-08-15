@@ -6,6 +6,7 @@ h1 {
   font-family: "Poppins", serif;
   font-size: 96px;
   text-align: center;
+  margin-top: 100px;
 }
 
 h2 {
@@ -173,7 +174,7 @@ h4 {
   height: 500px;
   width: 400px;
 }
-@-webkit-keyframes slide_animation {
+@keyframes slide_animation {
   0% {
     left: 0px;
   }
@@ -214,11 +215,11 @@ h4 {
   height: 800px;
   margin: 0 0 0 -2400px;
   position: relative;
-  -webkit-animation-name: slide_animation;
-  -webkit-animation-duration: 20s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-  -webkit-animation-play-state: running;
+  animation-name: slide_animation;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-play-state: running;
 }
 
 .img-container {
