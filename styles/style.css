@@ -20,6 +20,8 @@ h2 {
   font-weight: lighter;
   margin-bottom: 60px;
   color: #8549f5;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 h4 {
@@ -28,32 +30,12 @@ h4 {
   margin-top: 100px;
 }
 
+hr {
+  margin-top: 60px;
+}
+
 .homepage {
   text-align: center;
-}
-
-.btn-primary {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  background: white;
-  border-color: var(--branding-color);
-  color: #8549f5;
-  display: block;
-  margin: 20px auto;
-  font-size: 16px;
-  padding: 12px 6px;
-  border: 1px solid #fff;
-  border-radius: 30px;
-  box-shadow: 2px 5px 5px rgb(190, 111, 255);
-  cursor: pointer;
-  transition: all 200ms ease-in-out;
-}
-
-.btn-primary:hover {
-  background: var(--branding-color);
-  border-color: var(--branding-color);
-  color: white;
-  background: #8549f5;
 }
 
 .feature {
@@ -191,4 +173,23 @@ h4 {
 
 .portrait {
   margin-top: 70px;
+}
+
+.button {
+  color: #8549f5;
+  display: block;
+  margin: 20px auto;
+  font-size: 16px;
+  background: white;
+  padding: 15px 20px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  box-shadow: 2px 5px 5px rgb(190, 111, 255);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  width: 250px;
+}
+
+a:visited {
+  color: #8549f5;
 }
